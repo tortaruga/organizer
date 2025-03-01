@@ -93,6 +93,16 @@ header button {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url(images/dark-mode-icon.svg) no-repeat, var(--bg-1);
+    background-position: center;
+    background-size: cover;
+}
+
+html.dark header button {
+    background: url(images/light-mode-icon.svg) no-repeat, var(--bg-1);
+    background-position: center;
+    background-size: 1.5rem;
+
 }
 
 .date-time-section {
@@ -476,7 +486,7 @@ html.dark .close-pomodoro {
     margin-block: 3rem 1rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     gap: 1rem;
     font-size: .9rem;
 }

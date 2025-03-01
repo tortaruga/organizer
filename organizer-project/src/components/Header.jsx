@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import darkModeIcon from '/images/dark-mode-icon.svg';
-import lightModeIcon from '/images/light-mode-icon.svg';
+// import darkModeIcon from '/images/dark-mode-icon.svg';
+// import lightModeIcon from '/images/light-mode-icon.svg';
 
 export default function Header() {
     const [darkMode, setDarkMode] = useState(false);
@@ -50,9 +50,7 @@ export default function Header() {
                 </div>
             </div>
 
-            <button type="button" className="theme-btn" aria-label="switch theme" onClick={switchTheme}>
-                <img src={darkMode ? lightModeIcon : darkModeIcon} alt="" />
-            </button>
+            <button type="button" className="theme-btn" aria-label="switch theme" onClick={switchTheme}></button>
         </header>
     )
 }
