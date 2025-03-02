@@ -89,7 +89,13 @@ export default function PomodoroTimer({onClick}) {
 
     function resetTimer() {
         setIsActive(false);
-        setTimer({});
+        setTimer({
+            min: 25,
+            sec: 0
+        });
+        document.querySelectorAll('.pomodoro button.selected').forEach(btn => btn.classList.remove('selected'));
+        document.getElementById('timer-task').classList.add('selected');
+
     }
 
     const minLeft = `${timer.min < 10 ? '0' + timer.min : timer.min}`;

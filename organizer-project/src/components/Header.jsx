@@ -1,6 +1,4 @@
 import { useState, useEffect } from "react";
-// import darkModeIcon from '/images/dark-mode-icon.svg';
-// import lightModeIcon from '/images/light-mode-icon.svg';
 
 export default function Header() {
     const [darkMode, setDarkMode] = useState(false);

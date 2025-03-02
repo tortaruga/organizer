@@ -2,8 +2,7 @@
     --bg-1: #E4D6C8;
     --bg-2: #EBE1D6;
     --bg-3: #F1EBE4;
-    --txt: 
-    ;
+    --txt: #644536;
     --accent-1: #CCA0CF;
     --accent-2: #E774A6;
     --shadow:  0px 0px 10px #1e16111a;
@@ -93,13 +92,13 @@ header button {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(images/dark-mode-icon.svg) no-repeat, var(--bg-1);
+    background: url(/images/dark-mode-icon.svg) no-repeat, var(--bg-1);
     background-position: center;
     background-size: cover;
 }
 
 html.dark header button {
-    background: url(images/light-mode-icon.svg) no-repeat, var(--bg-1);
+    background: url('/images/light-mode-icon.svg') no-repeat, var(--bg-1);
     background-position: center;
     background-size: 1.5rem;
 
