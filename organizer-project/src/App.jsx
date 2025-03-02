@@ -5,6 +5,7 @@ import NotesSection from "./components/NotesSection.jsx";
 import { useState } from "react";
 import './styles/main.css';
 import Tools from "./components/Tools.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
 const [tasks, setTasks] = useState([]);
@@ -31,9 +32,7 @@ const [tasks, setTasks] = useState([]);
 
       </main> 
 
-      <footer>
-        credits & stuff
-      </footer>
+      <Footer />
     </>
   )
 }

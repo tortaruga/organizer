@@ -504,6 +504,17 @@ footer:not(.notes-section footer) {
     margin-block-start: 3rem;
     max-width: 1440px;
     margin-inline: auto;
+    font-size: .8rem;
+    letter-spacing: .05rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--accent-2);
+}
+
+a:hover {
+    color: var(--accent-1);
 }
 
 @media screen and (min-width: 800px) {
